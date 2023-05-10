@@ -3,11 +3,11 @@ version: "3.8"
 services:
   graphql:
     build:
-      context: ../ginger-graphql # point to Dockerfile
+      context: ./ginger-graphql # point to Dockerfile
     working_dir: /packages/app
     command: yarn local:web
   clinhub:
     build:
-      context: ../care-platform-web
+      context: ./care-platform-web
     working_dir: /app
     command: yarn local-graphql
