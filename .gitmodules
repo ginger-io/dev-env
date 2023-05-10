@@ -1,0 +1,9 @@
+[submodule "web"]
+	path = web
+	url = git@github.com:ginger-io/web.git
+[submodule "care-platform-web"]
+	path = care-platform-web
+	url = git@github.com:ginger-io/care-platform-web.git
+[submodule "ginger-graphql"]
+	path = ginger-graphql
+	url = git@github.com:ginger-io/ginger-graphql.git
